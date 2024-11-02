@@ -9,3 +9,5 @@ while position < len(my_list):
         position += 1
     else:
         break
+else:
+    print('Нет отрицательных значений')
