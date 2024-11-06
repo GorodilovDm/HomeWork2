@@ -1,6 +1,6 @@
-import random
+from random import randint
 
-one_rnd = random.randint(3, 20)
+one_rnd = randint(3, 20)
 result = []
 for i in range(1, one_rnd):
     for j in range(1 + i, one_rnd):
